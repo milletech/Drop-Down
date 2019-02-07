@@ -1,0 +1,44 @@
+body{
+	background-color:#eee;
+	color:#555;
+	font-family:hevetica;
+}
+h2{
+	margin:0px;
+	text-decoration:underline;
+}
+#content{
+	background:linear-gradient(60deg,aqua,white 70%);
+	background-color:white;
+	padding:5px;
+	width:400px;
+	font-size:18px;
+	max-height:250px;
+	overflow:hidden;			/* Scroll,hidden, auto, visble*/
+	border:3px black dashed;
+	border-color:lightblue;
+	border-radius:3px;
+
+}
+
+/*==============MYBUTTON==============*/
+#mybutton{
+	border:lightblue 2px solid;
+	font-size:20px;
+	background-color:skyblue;
+	color:white;
+	text-decoration:none;
+	border-radius:3px;
+
+}
+/*===========THE SHOW MORE PART==============*/
+#content.open{
+	max-height:1000PX;
+	background-color:white;
+	padding:5px;
+	width:400px;
+	font-size:18px;
+	border:3px black dashed;
+	border-color:lightblue;
+	background:linear-gradient(60deg,aqua,white 70%);
+}
